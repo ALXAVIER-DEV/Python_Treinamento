@@ -23,7 +23,7 @@ def jogar():
             tentativas += 1
             desenha_forca(tentativas)
 
-        enforcou = tentativas == 6
+        enforcou = tentativas == 7
         acertou = "_" not in letras_acertadas
 
         print(letras_acertadas)
